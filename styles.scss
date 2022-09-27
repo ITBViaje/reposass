@@ -1,0 +1,58 @@
+@import "menufooter";
+$colorbg:rgb(190, 124, 39);
+$width: 10em;
+.fondo{
+    background-color: $colorbg;
+    padding-bottom: 1.5em;
+}
+
+.btn.btn-secondary.my-2{
+    background-color: $colorbg;
+    color:white;
+    border-color: brown;
+}
+h1{
+    width: $width;
+    
+    
+}
+
+@mixin estiloFuente($color, $size, $bg){
+    color: $color;
+    font-size: $size;
+    background-color: $bg;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    
+    @include estiloFuente(rgb(135, 160, 228),50px, pink);
+    background-color: black
+    
+
+ }
+ p{
+    
+    @include estiloFuente(blue, 20px, yellow);
+ }
+
+ .semaforo{
+    
+        background-color: rgb(237, 3, 3);
+        animation-name: ejemplo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite
+        
+        
+
+ }
+ @keyframes ejemplo {
+    from { 
+   background-color: rgb(225, 0, 255); 
+   }
+    to {
+   background-color: rgba(241, 56, 5, 0.837); 
+   }
+   }
+   
+  

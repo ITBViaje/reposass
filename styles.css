@@ -1,0 +1,75 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0;
+  color: white;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  background-color: blue;
+}
+
+.fondo {
+  background-color: rgb(190, 124, 39);
+  padding-bottom: 1.5em;
+}
+
+.btn.btn-secondary.my-2 {
+  background-color: rgb(190, 124, 39);
+  color: white;
+  border-color: brown;
+}
+
+h1 {
+  width: 10em;
+}
+
+h1 {
+  color: rgb(135, 160, 228);
+  font-size: 50px;
+  background-color: pink;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+p {
+  color: blue;
+  font-size: 20px;
+  background-color: yellow;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.semaforo {
+  background-color: rgb(237, 3, 3);
+  -webkit-animation-name: ejemplo;
+          animation-name: ejemplo;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes ejemplo {
+  from {
+    background-color: rgb(225, 0, 255);
+  }
+  to {
+    background-color: rgba(241, 56, 5, 0.837);
+  }
+}
+
+@keyframes ejemplo {
+  from {
+    background-color: rgb(225, 0, 255);
+  }
+  to {
+    background-color: rgba(241, 56, 5, 0.837);
+  }
+}/*# sourceMappingURL=styles.css.map */
